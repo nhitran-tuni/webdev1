@@ -36,9 +36,9 @@ Now you should in your virtual environment. All the files in repository are link
 
 Ports 3000 for Node and 27017 for MongoDB are open from the virtual environment to the same port numbers of the host system (your computers operating system). So, if you run a Node server in your virtual environment on the port 3000, you can access it with your browser from the address _localhost:3000_.
 
-Use command _vagrant halt_ to shut down the machine (when not logged in with ssh)
+Use command `vagrant halt` to shut down the machine (when not logged in with ssh)
 
-Use command _vagrant destroy_ to delete the whole virtual machine   
+Use command `vagrant destroy` to delete the whole virtual machine   
 
 If you get an error: symlink error, error -71, etc. with vagrant, use the parameter --no-bin-links.
 Check https://github.com/npm/npm/issues/7308 and http://perrymitchell.net/article/npm-symlinks-through-vagrant-windows/
