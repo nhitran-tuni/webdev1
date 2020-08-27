@@ -16,15 +16,15 @@ To start using Vagrant on your machine, first install the needed softwares
 After you have successfully installed both VirtualBox and Vagrant, you get to setup and access the virtual environment by using files in this repository. This repository has a _Vagrantfile_ file in its root folder, and _/vagrant_ folder, which holds _provision.sh_ file which is called from the _Vagrantfile_. You should read through these files, but you don't (and shouldn't) edit them.
 
 In the root directory of this repository where the _Vagrantfile_ is, first run this command:
-    _vagrant help_
+`_vagrant help_`
 This will list the available Vagrant commands. We will only be using a few of them in the following steps and this course.
 
 Next start the configuration and setting up of the virtual environment with this command
-    _vagrant up_
+`_vagrant up_`
 This will take a looong time to complete, as it fetches a image of Ubuntu for the virtual machine, and runs all the installation steps defined in _provision.sh_.
 
 After the vagrant up command has completed, you can connect to the running virtual environment with this command:
-    _vagrant ssh_
+`_vagrant ssh_`
 
 Now you should in your virtual environment. All the files in repository are linked in the directory _/webdev1_ of your virtaul environment. You can access this folder with the command 
     _cd /webdev1_
