@@ -1,4 +1,4 @@
-# This is your WebDev repository
+# This is your repository for WebDev1 exercises
 TODO: GENERAL INSTRUCTIONS 
 
 ## Using Docker to create and run a development environment on your machine
