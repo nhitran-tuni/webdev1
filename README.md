@@ -4,23 +4,22 @@ You two options for creating a development environment for this course:
 - Vagrant 
 
 ## Direct install
-Direct install of Node is instructed in the Handson video which is available in Plussa first lecture week course materials.
+Direct install of Node is instructed in the Handson video which is available in Plussa first lecture week course materials. Shortly summarized:
 
 In *Linux* you can install Node with the following commmands:
-`
-node -v
-curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.35.3/install.sh -o install_nvm.sh
+`node -v`
 
-bash install_nvm.sh
+`curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.35.3/install.sh -o install_nvm.sh`
 
-source ~/.profile
+`bash install_nvm.sh`
 
-nvm install 14.9.0
+`source ~/.profile`
 
-nvm use 14.9.0
+`nvm install 14.9.0`
 
-node -v
-`
+`nvm use 14.9.0`
+
+`node -v`
 
 In *Windows* you can follow [Microsoft's own instructions for Node installation](https://docs.microsoft.com/en-us/windows/nodejs/setup-on-windows).
 
