@@ -1,7 +1,7 @@
 # This is your repository for WebDev1 exercises
 You two options for creating a development environment for this course:
-- direct install of the Node to your PC
-- Vagrant 
+- direct install of the Node to your own machine
+- using Vagrant on your own machine 
 
 ## Direct install
 Direct install of Node is instructed in the Handson video which is available in Plussa first lecture week course materials. Shortly summarized:
