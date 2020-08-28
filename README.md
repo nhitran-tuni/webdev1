@@ -1,6 +1,13 @@
 # This is your repository for WebDev1 exercises
 TODO: GENERAL INSTRUCTIONS 
 
+You two options for creating a development environment for this course:
+- direct install of the Node to your PC
+- Vagrant 
+
+## Direct install
+Direct install is instructed in the Handson video which is available in Plussa first lecture week course materials.
+
 ## Using Vagrant to create and run a development environment on your machine
 From [Vagrants Introduction](https://www.vagrantup.com/intro):
 >Vagrant is a tool for building and managing virtual machine environments in a single workflow. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases production parity, and makes the "works on my machine" excuse a relic of the past.
