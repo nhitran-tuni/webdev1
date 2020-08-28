@@ -34,7 +34,7 @@ After the vagrant up command has completed, you can connect to the running virtu
 Now you should in your virtual environment. All the files in repository are linked in the directory _/webdev1_ of your virtaul environment. You can access this folder with the command 
     _cd /webdev1_
 
-Ports 3000 for Node and 27017 for MongoDB are open from the virtual environment to the same port numbers of the host system (your computers operating system). So, if you run a Node server in your virtual environment on the port 3000, you can access it with your browser from the address _localhost:3000_.
+Ports 3000 for Node and 27017 for MongoDB are open from the virtual environment to the same port numbers of the host system (your computers operating system). So, if you run a Node server in your virtual environment on the port 3000, you can access it from the host system with your browser using the address _localhost:3000_.
 
 Use command `vagrant halt` to shut down the machine (when not logged in with ssh)
 
