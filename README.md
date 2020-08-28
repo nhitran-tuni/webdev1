@@ -73,7 +73,7 @@ The wk1 exercises are stored in the git repository, and copied to your working d
 Other exercises must be pulled from the course upstream, see Plussa exercise "Setting upstream".
 
 The procedure
-- pull the instructions, they are of format exercises/XX_desc/*.html
+- pull the instructions from upstream (not necessary in wk1); exercises are of the format `exercises/XX_desc/*.html` where XX corresponds the exercise week
 - save the required files to your repository: git add FILE; git commit -m "message" FILE; git push
 - give the git URL to Plussa
 - Plussa grades your submission
