@@ -8,7 +8,7 @@ For node there are two options:
 ## Direct install
 Direct install of Node.js is instructed in the Handson video which is available in Plussa first lecture week course materials. Shortly summarized:
 
-In *Linux* you can install Node with the following commmands:
+In *Linux* you can install Node with the following commmands in your console:
 
 `node -v`
 
@@ -37,7 +37,7 @@ To start using Vagrant on your machine, first install the needed softwares
 
 After you have successfully installed both VirtualBox and Vagrant, you get to setup and access the virtual environment by using files in this repository. This repository has a _Vagrantfile_ file in its root folder, and _/vagrant_ folder, which holds _provision.sh_ file which is called from the _Vagrantfile_. You should read through these files, but you don't (and shouldn't) edit them.
 
-In the root directory of this repository where the _Vagrantfile_ is, first run this command:
+In the root directory of this repository where the _Vagrantfile_ is, first run this command in your console:
 
 `vagrant help`
 
@@ -53,7 +53,7 @@ After the vagrant up command has completed, you can connect to the running virtu
 
 `vagrant ssh`
 
-Now you should in your virtual environment. All the files in repository are linked in the directory _/webdev1_ of your virtaul environment. You can access this folder with the command 
+Now you should be in your virtual environment. All the files in repository are linked in the directory _/webdev1_ of your virtaul environment. You can access this folder with the command 
     _cd /webdev1_
 
 Ports 3000 for Node and 27017 for MongoDB are open from the virtual environment to the same port numbers of the host system (your computers operating system). So, if you run a Node server in your virtual environment on the port 3000, you can access it from the host system with your browser using the address _localhost:3000_.
