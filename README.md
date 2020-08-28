@@ -1,10 +1,12 @@
 # This is your repository for WebDev1 exercises
-You two options for creating a development environment for this course:
+
+For doing the exercises you need to have git and node installed.
+For node there are two options:
 - direct install of the Node to your own machine
 - using Vagrant on your own machine 
 
 ## Direct install
-Direct install of Node is instructed in the Handson video which is available in Plussa first lecture week course materials. Shortly summarized:
+Direct install of Node.js is instructed in the Handson video which is available in Plussa first lecture week course materials. Shortly summarized:
 
 In *Linux* you can install Node with the following commmands:
 
@@ -63,3 +65,20 @@ Use command `vagrant destroy` to delete the whole virtual machine
 If you get an error: symlink error, error -71, etc. with vagrant, use the parameter --no-bin-links.
 Check https://github.com/npm/npm/issues/7308 and http://perrymitchell.net/article/npm-symlinks-through-vagrant-windows/
  
+
+
+## Exercises
+
+The wk1 exercises are stored in the git repository, and copied to your working directory when you clone the repo.
+Other exercises must be pulled from the course upstream, see Plussa exercise "Setting upstream".
+
+The procedure
+- pull the instructions, they are of format exercises/XX_desc/*.html
+- save the required files to your repository: git add FILE; git commit -m "message" FILE; git push
+- give the git URL to Plussa
+- Plussa grades your submission
+
+
+## Support for exercises 
+
+Available in Teams Q&A
