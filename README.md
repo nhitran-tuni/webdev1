@@ -7,6 +7,7 @@ You two options for creating a development environment for this course:
 Direct install of Node is instructed in the Handson video which is available in Plussa first lecture week course materials. Shortly summarized:
 
 In *Linux* you can install Node with the following commmands:
+
 `node -v`
 
 `curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.35.3/install.sh -o install_nvm.sh`
