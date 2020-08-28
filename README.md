@@ -1,12 +1,28 @@
 # This is your repository for WebDev1 exercises
-TODO: GENERAL INSTRUCTIONS 
-
 You two options for creating a development environment for this course:
 - direct install of the Node to your PC
 - Vagrant 
 
 ## Direct install
-Direct install is instructed in the Handson video which is available in Plussa first lecture week course materials.
+Direct install of Node is instructed in the Handson video which is available in Plussa first lecture week course materials.
+
+In *Linux* you can install Node with the following commmands:
+`
+node -v
+curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.35.3/install.sh -o install_nvm.sh
+
+bash install_nvm.sh
+
+source ~/.profile
+
+nvm install 14.9.0
+
+nvm use 14.9.0
+
+node -v
+`
+
+In *Windows* you can follow [Microsoft's own instructions for Node installation](https://docs.microsoft.com/en-us/windows/nodejs/setup-on-windows).
 
 ## Using Vagrant to create and run a development environment on your machine
 From [Vagrants Introduction](https://www.vagrantup.com/intro):
