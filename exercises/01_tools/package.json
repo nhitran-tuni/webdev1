@@ -1,7 +1,6 @@
 {
   "name": "01_tools",
   "version": "1.0.0",
-  "description": "",
   "main": "(index.js) hellonode.js",
   "directories": {
     "test": "test"
@@ -10,5 +9,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "description": ""
 }

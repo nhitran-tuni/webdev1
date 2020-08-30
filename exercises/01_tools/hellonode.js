@@ -1,5 +1,7 @@
 const _ = require("lodash");
-     
+const ver = _.VERSION;
+console.log(ver);
+
 function hellonode(array) {
 
     let begin = _.first(array);
@@ -8,5 +10,3 @@ function hellonode(array) {
     return begin + ' ' +end;
 }
 
-const string = ["hello", "goodbye", "alpha", "omega", "edge", "node"];
-console.log(hellonode(string));
