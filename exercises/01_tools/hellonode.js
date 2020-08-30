@@ -10,3 +10,4 @@ function hellonode(array) {
     return begin + ' ' +end;
 }
 
+module.exports = hellonode;
