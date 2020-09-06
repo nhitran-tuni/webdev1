@@ -4,7 +4,7 @@ const chai = require('chai');
 const expect = chai.expect;
 
 const Hello = require('../hellomocha');
-const grade = require('../grade');
+
 describe('Hello', function() {
     describe('grade()', function() {
         it('should return 0 (zero) if answer is not a string', function() {
