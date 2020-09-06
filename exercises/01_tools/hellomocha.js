@@ -54,10 +54,6 @@ module.exports = {
             points += maxPoints / 2;
         }
 
-        if (answer.includes('mocha!') && answer.includes('hello')) {
-            points += maxPoints;
-        }
-
         return points;
     }
 };
