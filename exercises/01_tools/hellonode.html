@@ -25,7 +25,13 @@
     <h3>Solving The Exercise step-by-step</h3>
 
     <h4>npm init</h4>
+<<<<<<< HEAD
     <p>First, touch hellonode.js, to provide an entry point for <code>npm init</code>.</p>
+=======
+    <p>First, create an empty hellonode.js file with command <code>touch hellonode.js</code>, to provide an entry point
+        for
+        <code>npm init</code>.</p>
+>>>>>>> 6eee7e8d3d67f6c419dc836858d2686a6656e172
     <p>The node.js project setup is run in the directory webdev1/exercises/01_tools with <code>npm init</code></p>
     <pre class="terminal">
 $$ npm init
@@ -118,6 +124,7 @@ found 0 vulnerabilities
         and under it, there exists the newly created sub-dir <code>lodash</code>:</p>
     <pre>
     .
+<<<<<<< HEAD
     ├── exercises/
     │   └── 01_tools
     │       ├── hellonode.js
@@ -127,6 +134,17 @@ found 0 vulnerabilities
     │       │       ├── add.js
     │       └── ...          
     └── .gitignore
+=======
+    └── exercises/
+        └── 01_tools
+            ├── hellonode.js
+            ├── package.json
+            ├── node_modules/
+            │   └── lodash
+            │       ├── add.js
+            └── ...          
+            └── .gitignore
+>>>>>>> 6eee7e8d3d67f6c419dc836858d2686a6656e172
     </pre>
 
     <p>Let us examine lodash more closely:</p>
@@ -175,6 +193,14 @@ found 0 vulnerabilities
           $ <strong>npm install nodemon</strong>
         </pre>
 
+<<<<<<< HEAD
+=======
+    <p>With Vagrant you need to use <em>sudo</em> to install with root privilidges. The command becomes:</p>
+    <pre class="terminal">
+            $ <strong>sudo npm install nodemon</strong>
+          </pre>
+
+>>>>>>> 6eee7e8d3d67f6c419dc836858d2686a6656e172
     <p>package.json is updated accordingly, now in </p>
     <pre>
         "devDependencies": {
@@ -211,7 +237,11 @@ console.log(ver);
 
     </p>
     <p>hellonode.js must also define an a function <code>hellonode(array)</code>.
+<<<<<<< HEAD
         The function simply prints the first and the last item of an array
+=======
+        The function simply returns the first and the last item of an array
+>>>>>>> 6eee7e8d3d67f6c419dc836858d2686a6656e172
         concatenated as one string with the help of <code>first()</code> and <code>last()</code>
         functions of lodash; remember, that these lodash methods have to be called with
         an appropriate dot notation.
