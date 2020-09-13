@@ -7,7 +7,7 @@ const accUrl = {
     "/" : "index.html"
 }
 
-const server = http.createServer((req, res) => {
+module.exports = http.createServer((req, res) => {
     const { method, url } = req;
 
     if (Object.keys(accUrl).includes(url)){
@@ -21,4 +21,4 @@ const server = http.createServer((req, res) => {
         res.statusMessage = 'Requested content not found';
         res.end();
     }
-}).listen(3000, '127.0.0.1');
+});
