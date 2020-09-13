@@ -9,7 +9,7 @@ const acceptHeaders ={
     "text/xml" : "data.xml"
 }
 
-const server = http.createServer((req, res) =>{
+const server = http.createServer((req, res) => { 
     const reqHeader = req.headers.accept;
 
     if (acceptHeaders.hasOwnProperty(reqHeader)) {
@@ -21,7 +21,6 @@ const server = http.createServer((req, res) =>{
     } else {
         res.statusCode = 406;
         res.statusMessage = 'Content type not available';
-        // res.writeHead (406, 'Content type not available');
         res.end();
     }
 }).listen(3000, '127.0.0.1');
