@@ -5,8 +5,7 @@ const acceptHeaders ={
     "*/*" : "data.txt",
     "text/plain" : "data.txt",
     "application/json" : "data.json",
-    "application/xml" : "data.xml",
-    "text/xml" : "data.xml"
+    "application/xml,text/xml" : "data.xml"
 }
 
 const server = http.createServer((req, res) => { 
