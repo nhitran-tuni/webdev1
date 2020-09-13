@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
     const { method, url } = req;
 
     if (Object.keys(accUrl).includes(url)){
-        fs.readFile(acc[url], (err, data) => {
+        fs.readFile(accUrl[url], (err, data) => {
             res.writeHead(200 ,{'Content-Type' : 'text/html'});
             res.write(data);
             res.end();
