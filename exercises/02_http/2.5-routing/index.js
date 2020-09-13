@@ -4,7 +4,7 @@ const fs = require('fs');
 const accUrl = {
     "/classical" : "homer.html",
     "/modern" : "bradbury.html",
-    "/respond" : "index.html"
+    "/" : "index.html"
 }
 
 const server = http.createServer((req, res) => {
