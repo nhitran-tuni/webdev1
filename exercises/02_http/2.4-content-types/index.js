@@ -12,11 +12,13 @@ const acceptHeaders ={
 const server = http.createServer((req, res) => { 
     const reqHeader = req.headers.accept;
 
-    if (acceptHeaders.hasOwnProperty(reqHeader)) {
-        fs.readFile(acceptHeaders.reqHeader, (err, data) => {
-            res.writeHead (200, {'Content-Type' : reqHeader});
-            res.write(data);
-            res.end();
+    // if (acceptHeaders.hasOwnProperty(reqHeader)) {
+    //     fs.readFile(acceptHeaders.reqHeader, (err, data) => {
+    if (Object.keys(acceptHeaders).includes(reqHeader)) {
+        fs.readFile(acceptHeaders[reqHeader], (err, data) => {
+        res.writeHead (200, {'Content-Type' : reqHeader});
+        res.write(data);
+        res.end();
         });
     } else {
         res.statusCode = 406;
