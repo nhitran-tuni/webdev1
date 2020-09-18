@@ -16,7 +16,7 @@ const server = http.createServer((req, res) => {
             res.end();
         });
     } else {
-        res.writeHead(405, 'Allow: GET, POST');
+        res.writeHead(405, "Allow: GET,POST");
         res.end();
     };
 }).listen(3000);
