@@ -10,14 +10,14 @@
         <form id="form1" action="http://localhost:3000/" method="GET">
             <input type="hidden" value="Hello from form1">
             <input type="text" name="text">
-            <input type="submit" value="Send Form 1">
+            <button type="submit" form="form1">Send Form 1</button>
         </form>
 
         <h2>Form 2</h2>
         <form id="form2" action="http://localhost:3000/" method="POST">
             <input type="hidden" name="hidden" value="Hello from form2">
             <textarea name="message" cols="35" rows="15"></textarea>
-            <input type="submit" value="Send Form 2">
+            <button type="submit" form="form2">Send Form 2</button>
         </form>
     </body>
 </html>
