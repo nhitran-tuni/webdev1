@@ -17,6 +17,6 @@ const server = http.createServer((req, res) => {
         });
     } else {
         res.writeHead(405, 'Allow: GET, POST');
-        res.end;
+        res.end();
     };
 }).listen(3000);
