@@ -8,7 +8,7 @@
 body{
     display: grid;
     grid-template-rows: min-content auto min-content;
-    /* TODO: modify the line below to add the needed grid-template-ares */
+    /* TODO: modify the line below to add the needed grid-template-areas */
     grid-template-areas:  ""; 
     height: 100vh;
 }
@@ -30,7 +30,7 @@ article {
     border: solid;
     margin: 0;
     display: grid;
-    /* TODO: modify the line below to add the needed grid-template-ares */
+    /* TODO: modify the line below to add the needed grid-template-areas */
     grid-template-areas: "";
     height: 100%;
 }
@@ -51,7 +51,7 @@ footer{
     background-color: darkslategray;
     grid-area: f;
     display: grid;
-    /* TODO: modify the line below to add the needed grid-template-ares */
+    /* TODO: modify the line below to add the needed grid-template-areas */
     grid-template-areas:  "";
     padding: 1.5rem;
 }
