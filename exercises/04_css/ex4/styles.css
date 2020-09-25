@@ -21,6 +21,7 @@ header {
   width: 100%;
   min-height: 15%;
   /* TODO: needed grid stuff */
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 section {
@@ -34,6 +35,10 @@ article {
   display: grid;
   font-size: 1.5em;
   /* TODO: needed grid stuff */
+  /* grid-template-areas: "sec1 aside1"
+                         "sec2 aside2"
+                         "sec3 ."; */
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
 }
 
 
@@ -42,6 +47,7 @@ footer {
   width: 100%;
   min-height: 15%;
   /* TODO: needed grid stuff */
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 nav {
@@ -53,6 +59,7 @@ header nav {
 }
 #sec1 {
   background-color: lavender;
+  grid-auto-columns:  ;
 }
 #aside1 {
   background-color: cornflowerblue;
