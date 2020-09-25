@@ -9,7 +9,9 @@ body{
     display: grid;
     grid-template-rows: min-content auto min-content;
     /* TODO: modify the line below to add the needed grid-template-areas */
-    grid-template-areas:  ""; 
+    grid-template-areas:  "h"
+                          "m"
+                          "f"; 
     height: 100vh;
 }
 main{
@@ -31,7 +33,9 @@ article {
     margin: 0;
     display: grid;
     /* TODO: modify the line below to add the needed grid-template-areas */
-    grid-template-areas: "";
+    grid-template-areas: "item1 aside1"
+                         "item2 aside2"
+                         "item3 .";
     height: 100%;
 }
 
@@ -52,7 +56,7 @@ footer{
     grid-area: f;
     display: grid;
     /* TODO: modify the line below to add the needed grid-template-areas */
-    grid-template-areas:  "";
+    grid-template-areas:  "nav1 nav2";
     padding: 1.5rem;
 }
 
