@@ -61,26 +61,19 @@ footer{
 }
 
 /* TODO: add the needed CSS rules below to set the required grid-area for each element with an ID */
-section#sec1 {
+#sec1 {
     grid-area: sec1;
 }
-section#sec2 {
+#sec2 {
     grid-area: sec2;
 }
-section#sec3 {
+#sec3 {
     grid-area: sec3;
 }
 
-aside#aside1 {
+#aside1 {
     grid-area: aside1;
 }
-aside#aside2 {
+#aside2 {
     grid-area: aside2;
-}
-
-nav#nav1 {
-    grid-area: nav1;
-}
-nav#nav2 {
-    grid-area: nav2;
 }
