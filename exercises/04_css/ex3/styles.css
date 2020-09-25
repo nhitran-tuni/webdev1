@@ -77,3 +77,10 @@ footer{
 #aside2 {
     grid-area: aside2;
 }
+
+#nav1 {
+    grid-area: nav1;
+}
+#nav2 {
+    grid-area: nav2;
+}
