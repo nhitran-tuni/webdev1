@@ -76,11 +76,11 @@ footer{
 
 @media only screen and (min-width : 992px){
     article {
-        grid-template-areas: "sec1 sec2 aside1"
-                             "sec3 . aside2";
+        grid-template-areas: "sec1 sec2 sec3"
+                             "aside1 aside2 .";
     }
     footer{
-        grid-template-areas:  "nav1 nav2";
+        grid-template-areas:  "nav1 nav2 .";
     }
 }
 
