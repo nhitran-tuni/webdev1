@@ -9,16 +9,12 @@ function tree_num (item) {
         var txt = ele.children;
         if (txt.length > 0){
             ele.firstChild.nodeValue += " (" + ele.querySelectorAll("li").length + ")";
-            // console.log(ele.querySelectorAll("li").length);
-        //     tree_num(txt);
             tree_num(txt[0].children);
         }
-        // tree_num(txt[0].children);
     }
 }
 
 tree_num(list);
 
-// console.log(list[0].firstChild.nodeValue += " ("+2+")");
 
 
