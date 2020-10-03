@@ -35,7 +35,7 @@ document.addEventListener("rollDice", function(e) {
 
     var current = document.getElementById("totals").querySelector("span");
     // console.log(current.textContent);
-    current.innerText = parseInt(current.textContent) + e.detail.value;
+    current.innerText = parseInt(current.textContent) + 1;
 
 });
 
