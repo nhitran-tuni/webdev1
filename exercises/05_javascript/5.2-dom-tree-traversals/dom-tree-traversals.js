@@ -7,11 +7,13 @@ function tree_num (item) {
 
     for ( var ele of item) {
         var txt = ele.children;
-        if (txt.length > 1){
+        if (txt.length > 0){
             ele.firstChild.nodeValue += " (" + ele.querySelectorAll("li").length + ")";
             // console.log(ele.querySelectorAll("li").length);
+        //     tree_num(txt);
+            tree_num(txt[0].children);
         }
-        tree_num(txt);
+        // tree_num(txt[0].children);
     }
 }
 
