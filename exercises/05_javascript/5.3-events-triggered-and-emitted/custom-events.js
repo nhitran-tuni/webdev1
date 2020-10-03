@@ -37,6 +37,8 @@ document.addEventListener("rollDice", function(e) {
     // console.log(current.textContent);
     current.innerText = parseInt(current.textContent) + 1;
 
+    document.getElementById("dice").querySelector("span").innerHTML = document.getElementById(id_name).querySelector("span").textContent;
+
 });
 
 dice_value.addEventListener("click" , rollDice);
