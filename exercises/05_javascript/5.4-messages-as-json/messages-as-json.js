@@ -19,7 +19,7 @@ document.addEventListener("userDataReady", function(e) {
 
         const address_ = clone.querySelectorAll('div.address > p');
         address_[0].innerText = object.address.streetAddress;
-        address_[1].innerText = object.address.zipCode;
+        address_[1].innerText = object.address.zipCode + " " + object.address.city;
         address_[2].innerText = object.address.country;
 
         // Add the link to user's social meadi homepage
