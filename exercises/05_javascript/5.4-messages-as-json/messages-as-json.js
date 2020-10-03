@@ -23,7 +23,8 @@ document.addEventListener("userDataReady", function(e) {
         address_[2].innerText = object.address.country;
 
         // Add the link to user's social meadi homepage
-        clone.querySelector('p.homepage').setAttribute("href", object.homepage);
+        clone.querySelector('p.homepage > a').setAttribute("href", object.homepage);
+        clone.querySelector('p.homepage > a').innerText = object.homepage;
 
         // Append the info the to contact div
         document.getElementById("contacts").appendChild(clone);
