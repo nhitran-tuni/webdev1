@@ -6,6 +6,29 @@
  */
 function sortTableByColumn(col, table) {
   // TODO: Implement this function
+  let sorted_arr = [];
+  let table1 = document.querySelectorAll("tbody > tr");
+
+  for ( var ele of table1) {
+    sorted_arr.push(ele.children[col].innerText);
+  }
+
+  sorted_arr.sort(
+    function(x,y) {
+      return x.localeCompare(y);
+    }
+  );
+
+  for (var item of sorted_arr){
+    for (var i of table1) {
+      if ( i.children[col].innerText === item ) {
+        table.querySelector("tbody").appendChild(i);
+      }
+    }
+  }
+
+  console.log(sorted_arr);
+  console.log(table1);
 }
 
 /**
