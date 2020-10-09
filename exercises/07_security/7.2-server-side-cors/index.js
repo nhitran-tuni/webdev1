@@ -8,7 +8,7 @@ http.createServer((req, res) => {
         /** TODO: add the required CORS headers */
     };
 
-    // TODO: handle OPTIONS HTTP method, 
+    // TODO: handle HEAD HTTP method, 
     // remember to add CORS headers to response
 
     // TODO: handle GET and POST HTTP methods, 
