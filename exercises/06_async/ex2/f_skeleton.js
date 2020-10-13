@@ -1,11 +1,13 @@
-/**
+**
  * TODO: Make a thenable (i.e. has a then method). 
  * Thenable behaves like a promise that resolves with
  * the value `👍` after 10ms.
  * See rejectable for reference
  */
 const thenable = {
-  then: function (onFulfilled) {}
+  then: function (onFulfilled) {
+    setTimeout(() => onFulfilled("👍"), 10);
+  }
 };
 
 /**
