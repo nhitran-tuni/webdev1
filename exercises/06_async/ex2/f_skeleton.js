@@ -1,4 +1,4 @@
-**
+/**
  * TODO: Make a thenable (i.e. has a then method). 
  * Thenable behaves like a promise that resolves with
  * the value `👍` after 10ms.

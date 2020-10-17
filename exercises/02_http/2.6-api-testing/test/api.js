@@ -69,7 +69,7 @@ describe('Going through the routes', () => {
                     // fs.readFile('index.html', (err, data) =>{
                     //     res.should.have.property('text', data);
                     // });
-                    res.should.have.property('text', fs.readFileSync('index.html').toString());
+                    res.should.have.property('text', index);
                     done();
                 });
         });
@@ -97,7 +97,7 @@ describe('Going through the routes', () => {
         //             // b) that the response is in HTML form
                     res.should.be.html;
         //             // c) the text of the response is equal to homer.html
-                    res.should.have.property('text', fs.readFileSync('homer.html').toString());
+                    res.should.have.property('text', homer);
                     done();
                 });
         });
@@ -126,7 +126,7 @@ describe('Going through the routes', () => {
                     res.should.be.html;
         //                 // c) the text of the response is equal to bradbury.html
                     // res.should.have.property('text', 'bradbury.html');
-                    res.should.have.property('text', fs.readFileSync('bradbury.html').toString());
+                    res.should.have.property('text', bradbury);
                         done();
                     });
             });

@@ -26,9 +26,6 @@ function sortTableByColumn(col, table) {
       }
     }
   }
-
-  console.log(sorted_arr);
-  console.log(table1);
 }
 
 /**

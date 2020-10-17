@@ -15,6 +15,3 @@ function tree_num (item) {
 }
 
 tree_num(list);
-
-
-
