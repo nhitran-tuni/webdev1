@@ -4,8 +4,8 @@ const port = 3000;
 http.createServer((req, res) => {
     // Remove the line 'res.end();' below when you start your own development
     if (!req.headers.origin) {
-        res.setHeader('400','Origin header not in the request');
-        res.end();
+        res.writeHead(400);
+        res.end('Origin header not in the request');
         return;
     }
     const headers = {
