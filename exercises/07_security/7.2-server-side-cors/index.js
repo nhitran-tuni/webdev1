@@ -6,6 +6,7 @@ http.createServer((req, res) => {
     if (!req.headers.origin) {
         res.setHeader('400','Origin header not in the request');
         res.end();
+        return;
     }
     const headers = {
         /** TODO: add the required CORS headers */
