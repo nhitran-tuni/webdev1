@@ -128,7 +128,7 @@ http.createServer(function (request, response) {
                             <label for="sum"><b>Sum to transfer (in full Euros)</b></label>
                             <input type="number" placeholder="Enter a sum" name="sum" required>
                             <button type="submit">Transfer money</button>
-                            <input type = "hidden" value = "${setCSRFtoken()}" name = "csrf_token">
+                            <input type="hidden" value="${setCSRFtoken()}" name="csrf_token">
                         </div>
                     </form>
                 </body>
